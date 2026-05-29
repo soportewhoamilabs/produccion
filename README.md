@@ -1,20 +1,16 @@
-# produccion
+# Production Web Repo (Demo)
 
-Repositorio de una aplicación web en producción con frontend, API y base de datos PostgreSQL.
+Repositorio de ejemplo que simula una aplicación web en producción con frontend, API y base de datos PostgreSQL.
 
-Stack
-Frontend: React + Vite
+## Stack
+- Frontend: React + Vite
+- Backend: Node.js + Express
+- DB: PostgreSQL + Prisma
+- Infra: Docker Compose + Nginx
+- CI: GitHub Actions
 
-Backend: Node.js + Express
-
-DB: PostgreSQL + Prisma
-
-Infra: Docker Compose + Nginx
-
-CI: GitHub Actions
-
-Estructura
-bash
+## Estructura
+```bash
 prod-web-repo/
 ├─ apps/
 │  ├─ web/
@@ -27,15 +23,16 @@ prod-web-repo/
 ├─ docker-compose.yml
 ├─ .env.example
 └─ package.json
-Cómo levantar
-bash
+```
+
+## Cómo levantar
+```bash
 cp .env.example .env
 docker compose up --build
-Servicios
-web: http://localhost:5173
+```
 
-api: http://localhost:3000
-
-proxy nginx: http://localhost:8080
-
-postgres: localhost:5432
+## Servicios
+- web: http://localhost:5173
+- api: http://localhost:3000
+- proxy nginx: http://localhost:8080
+- postgres: localhost:5432
