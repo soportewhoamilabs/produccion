@@ -1,5 +1,6 @@
 {
   "name": "prod-web-repo",
+  "user": "prod-web-repo",
   "private": true,
   "workspaces": ["apps/web", "apps/api"],
   "scripts": {
