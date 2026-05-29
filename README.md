@@ -1,4 +1,4 @@
-# Production Web Repo (Demo)
+# Production Web Repo 
 
 Repositorio de ejemplo que simula una aplicación web en producción con frontend, API y base de datos PostgreSQL.
 
